@@ -44,6 +44,21 @@ Start a new session and the HUD appears above the prompt.
 /plugin update blockhud@blockhud
 ```
 
+### Auto-update
+
+Auto-update is off by default for third-party marketplaces. To turn it on, open `/plugin`, go to **Marketplaces**, select **blockhud** and choose **Enable auto-update**. Or add `"autoUpdate": true` to the marketplace's entry in `~/.claude/settings.json`:
+
+```json
+"extraKnownMarketplaces": {
+  "blockhud": {
+    "source": { "source": "github", "repo": "ssobii2/BlockHud" },
+    "autoUpdate": true
+  }
+}
+```
+
+Claude Code then checks for a new version after each session starts; the next session loads it. If `DISABLE_AUTOUPDATER` is set in your environment, also set `FORCE_AUTOUPDATE_PLUGINS=1`, or plugin auto-update stays off.
+
 ### Uninstall
 
 ```

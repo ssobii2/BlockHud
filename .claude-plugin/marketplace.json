@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "blockhud",
+  "description": "BlockHUD, a Minecraft-style HUD for Claude Code",
+  "owner": {
+    "name": "Muhammad Subhan Imran",
+    "url": "https://github.com/ssobii2"
+  },
+  "plugins": [
+    {
+      "name": "blockhud",
+      "description": "Minecraft-style HUD above the prompt: armor, hearts, food, XP and hotbar",
+      "source": "./"
+    }
+  ]
+}

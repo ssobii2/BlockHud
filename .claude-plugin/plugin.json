@@ -1,6 +1,6 @@
 {
   "name": "blockhud",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Minecraft-style HUD above the prompt: armor, hearts, food, XP and hotbar",
   "author": { "name": "Muhammad Subhan Imran", "url": "https://github.com/ssobii2" },
   "license": "MIT",

@@ -2,7 +2,7 @@
 
 A Claude Code mod that draws a Minecraft-style HUD above the prompt: armor, hearts, food, XP and a hotbar of the tools Claude has used.
 
-<!-- TODO: add a screenshot, e.g. ![BlockHUD above the prompt](docs/screenshot.png) -->
+![BlockHUD above the prompt: armor, hearts, food, XP bar and a hotbar of tools in use](docs/screenshot.png)
 
 | Row | Shows |
 | --- | --- |

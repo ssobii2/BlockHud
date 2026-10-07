@@ -50,7 +50,8 @@ export const register: Register = on => {
     try {
       return await next(e)
     } finally {
-      pending.splice(pending.indexOf(call), 1)
+      const i = pending.indexOf(call)
+      if (i >= 0) pending.splice(i, 1)
       $.ui.invalidate('ui.render')
     }
   }).catch(($, e, next) => next(e)) // a HUD failure must never block a tool
